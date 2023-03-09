@@ -1,0 +1,13 @@
+
+ul{
+    width: 150%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+li{
+    width: 8%;
+    margin-left: 6%;
+    font-size: 1.5em;
+    background-color: rgba(190, 190, 190, 0.5);
+}
