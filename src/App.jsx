@@ -7,6 +7,7 @@ import Dogs from './components/Dogs/Dogs'
 import Products from './components/Products/Products'
 import LearnMore from './components/LearnMore/LearnMore'
 import Nav from './components/Nav/Nav'
+import ShoppingCar from './components/ShoppingCar/ShoppingCar'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route path='/dogs' element={<Dogs/>}/>
         <Route path='/products' element={<Products/>}/>
         <Route path='/learnMore' element={<LearnMore/>}/>
+        <Route path='/shoppingCar' element={<ShoppingCar/>}/>
       </Routes>
       
       }   

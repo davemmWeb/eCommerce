@@ -13,7 +13,6 @@
 }
 .containerImage{
     background-color: rgb(232, 236, 239);
-    margin-top: 1rem;
     margin-left: 3em;
     border: solid 1px rgb(209, 204, 204);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -21,6 +20,7 @@
     color: rgb(34, 33, 33);
     text-align: center;
     width: 11em;
+    height: 10em;
 }
 .containerImage img{
     width: 60%;
@@ -29,11 +29,4 @@
 .title{
     color: black;
     grid-area: header;
-}
-
-.car{
-    position: absolute;
-    font-size: 32px;
-    top: 1rem;
-    margin-left: 75%;
 }
